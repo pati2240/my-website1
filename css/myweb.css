@@ -71,3 +71,60 @@ body{
     border-radius: 50px;
     font-size: 20px;
 }
+.t2 img{
+    position: absolute;
+    margin: 70px;
+}
+.t2dc{
+    position: absolute;
+    left: 35%;
+    padding: 70px 0px;
+}
+.t2d{
+    float: left;
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    margin: 20px;
+    border-radius: 30px;
+}
+.t11{
+    color: white;
+    background-color: orange;
+    padding: 35px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+}
+.t11 h1{
+    padding-bottom: 10px;
+}
+.t22{
+    background-color: white;
+    font-size: 17px;
+    padding: 35px;
+    text-align: justify;
+}
+.t33{
+    background-color: white;
+    font-size: 17px;
+    padding: 35px;
+    text-align: justify;
+}
+.t33 a{
+    color: orange;
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 20%;
+}
+.t44{
+    background-color: orange;
+    color: white;
+    font-size: 17px;
+    padding: 35px;
+    text-align: center;
+    font-size: 17px;
+}
+.t44 h1{
+    margin-bottom: 15px;
+}
