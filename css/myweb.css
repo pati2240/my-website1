@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    color: aliceblue;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.li{
+
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+a{
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 160px;
+}
