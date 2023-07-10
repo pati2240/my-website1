@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 1100px;
+    background-image: url(../images/vbvbb-min.jpg);
+    backdrop-filter: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.container h1, .container p{
+    
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    font-size: 20px;
+}
+.container h1{
+    padding: 100px;
+    font-size: 60px;
+}
+.container p{
+    padding: 0px 200px;
+    font-size: 40px;
+    text-align: justify;
+}
+.con{
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 50px 20px;
+}
