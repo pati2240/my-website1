@@ -1,3 +1,10 @@
+@font-face {
+    font-family: nunito;
+    src: url(../font/Nunito/static/Nunito-Medium.ttf);
+}
+body{
+    font-family: nunito;
+}
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +21,7 @@
 .hh , .hp{
     
     color: white;
-    text-shadow: 2px 2px 8px black;
+    text-shadow: 2px 2px 3px black;
     font-size: 20px;
 }
 .hh{
@@ -34,6 +41,13 @@
     background-color: white;
     margin: 50px 20px;
 }
+.con:hover{
+    background-color: orange;
+    color: white;
+}
+.con:hover a{
+   color: black; 
+}
 .con h3{
     font-size: 26px;
 }
@@ -50,4 +64,12 @@
     color: red;
     text-decoration: underline;
     transition: 1s;
+}
+.filter{
+    height: 1100;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+.icon{
+    font-size: 70px;
+    margin: 40px;
 }
