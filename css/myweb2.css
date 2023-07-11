@@ -1,148 +1,177 @@
 @font-face {
-    font-family: nunito;
-    src: url(../font/Nunito/static/Nunito-Medium.ttf);
+  font-family: nunito;
+  src: url(../font/Nunito/static/Nunito-Medium.ttf);
 }
-body{
-    font-family: nunito;
+
+body {
+  font-family: nunito;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    height: 1100px;
-    background-image: url(../images/vbvbb-min.jpg);
-    backdrop-filter: 1;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+
+.container {
+  height: 1100px;
+  background-image: url(../images/vbvbb-min.jpg);
+  backdrop-filter: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
-.hh , .hp{
-    
-    color: white;
-    text-shadow: 2px 2px 3px black;
-    font-size: 20px;
+
+.hh,
+.hp {
+
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  font-size: 20px;
 }
-.hh{
-    padding: 100px;
-    font-size: 60px;
+
+.hh {
+  padding: 100px;
+  font-size: 60px;
 }
-.hp{
-    padding: 0px 200px;
-    font-size: 40px;
-    text-align: justify;
+
+.hp {
+  padding: 0px 200px;
+  font-size: 40px;
+  text-align: justify;
 }
-.con{
-    display: inline-block;
-    width: 300px;
-    height: 450px;
-    border-radius: 30px;
-    background-color: white;
-    margin: 50px 20px;
+
+.con {
+  display: inline-block;
+  width: 300px;
+  height: 450px;
+  border-radius: 30px;
+  background-color: white;
+  margin: 50px 20px;
 }
-.con:hover{
-    background-color: orange;
-    color: white;
+
+.con:hover {
+  background-color: orange;
+  color: white;
 }
-.con:hover a{
-   color: black; 
+
+.con:hover a {
+  color: black;
 }
-.con h3{
-    font-size: 26px;
+
+.con h3 {
+  font-size: 26px;
 }
-.con p{
-    font-size: 23px;
-    margin: 30px;
+
+.con p {
+  font-size: 23px;
+  margin: 30px;
 }
-.con a{
-    text-decoration: none;
-    font-size: 20px;
-    color: orange;
+
+.con a {
+  text-decoration: none;
+  font-size: 20px;
+  color: orange;
 }
-.con a:hover{
-    color: red;
-    text-decoration: underline;
-    transition: 1s;
+
+.con a:hover {
+  color: red;
+  text-decoration: underline;
+  transition: 1s;
 }
-.filter{
-    height: 1100;
-    background-color: rgba(0, 0, 0, 0.219);
+
+.filter {
+  height: 1100;
+  background-color: rgba(0, 0, 0, 0.219);
 }
-.icon{
-    font-size: 70px;
-    margin: 40px;
+
+.icon {
+  font-size: 70px;
+  margin: 40px;
 }
-.footer{
-    background-image: url(../images/nmmn-min.jpg);
-    height: 1050px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+
+.footer {
+  background-image: url(../images/nmmn-min.jpg);
+  height: 1050px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-form{
-    position: relative;
-    top: 7%;
-    width: 750px;
-    background-color: rgba(0, 0, 0, 0.356);
-    border-radius: 10px;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.276);
-    margin: 0px auto;
-    padding: 50px 60px;
-    backdrop-filter: blur(10px);
-  }
-  .d-block{
-    display: block;
-    width: 100%;
-  }
-  .inp{
-    padding: 12px 10px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    margin-bottom: 12px;
-    outline: none;
-  }
-  form h1{
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    color: orange;
-    letter-spacing: 4px;
-    font-size: 40px;
-  }
-  form textarea{
-    resize:vertical;
-  }
-  form a{
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 20px;
-  }
-  form input[type="button"]{
-    border: none;
-    padding: 14px;
-    margin: 35px 0px;
-    border-radius: 5px;
-    color: orange;
-    font-weight: bold;
-    font-size: 19px;
-    background-color: black;
-  }
-  form p{
-    text-align: center;
-    color: rgb(255, 255, 255);
-  }
-  .inp::placeholder,select{
-    color: rgb(181, 179, 179);
-  }
-  .name{
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: left;
-  }
-  .footer img{
-    position: absolute;
-    top: 25%;
-    left: 2%;
-  }
+
+form {
+  position: relative;
+  top: 7%;
+  width: 750px;
+  background-color: rgba(0, 0, 0, 0.356);
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.276);
+  margin: 0px auto;
+  padding: 50px 60px;
+  backdrop-filter: blur(10px);
+}
+
+.d-block {
+  display: block;
+  width: 100%;
+}
+
+.inp {
+  padding: 12px 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+form h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  color: orange;
+  letter-spacing: 4px;
+  font-size: 40px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+form input[type="button"] {
+  border: none;
+  padding: 14px;
+  margin: 35px 0px;
+  border-radius: 5px;
+  color: orange;
+  font-weight: bold;
+  font-size: 19px;
+  background-color: black;
+}
+
+form p {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.inp::placeholder,
+select {
+  color: rgb(181, 179, 179);
+}
+
+.name {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+
+.footer img {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
