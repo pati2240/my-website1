@@ -73,3 +73,70 @@ body{
     font-size: 70px;
     margin: 40px;
 }
+.footer{
+    background-image: url(../images/nmmn-min.jpg);
+    height: 1050px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    position: relative;
+    top: 7%;
+    width: 750px;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.276);
+    margin: 0px auto;
+    padding: 50px 60px;
+    backdrop-filter: blur(10px);
+  }
+  .d-block{
+    display: block;
+    width: 100%;
+  }
+  .inp{
+    padding: 12px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    outline: none;
+  }
+  form h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: orange;
+    letter-spacing: 4px;
+    font-size: 40px;
+  }
+  form textarea{
+    resize:vertical;
+  }
+  form a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  form input[type="button"]{
+    border: none;
+    padding: 14px;
+    margin: 35px 0px;
+    border-radius: 5px;
+    color: orange;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: black;
+  }
+  form p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .inp::placeholder,select{
+    color: rgb(181, 179, 179);
+  }
+  .name{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+  }
