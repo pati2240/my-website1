@@ -78,6 +78,7 @@ body{
     height: 1050px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 form{
     position: relative;
@@ -139,4 +140,9 @@ form{
     font-weight: bold;
     font-size: 20px;
     text-align: left;
+  }
+  .footer img{
+    position: absolute;
+    top: 25%;
+    left: 2%;
   }
